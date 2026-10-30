@@ -98,7 +98,7 @@ Two ship with the package:
 
 ```bash
 uv venv && uv pip install -e ".[dev,server]"
-make test      # 20 tests, no network
+make test      # 45 tests, no network
 make demo      # the three modes above
 make serve     # SSE endpoint at POST /runs
 ```
